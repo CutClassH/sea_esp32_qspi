@@ -1,0 +1,25 @@
+#################################################
+# Syntax Coloring Map For sea_esp32_qspi
+#################################################
+
+##############################################################
+# Class (KEYWORD1)
+##############################################################
+
+sea_esp32_qspi	KEYWORD1	sea_esp32_qspi
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+SeaTrans	KEYWORD2
+# sea_esp32_qspi methods
+begin	KEYWORD2
+end		KEYWORD2
+write	KEYWORD2
+read	KEYWORD2
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+WR_CMD	LITERAL1
+RD_CMD	LITERAL1
