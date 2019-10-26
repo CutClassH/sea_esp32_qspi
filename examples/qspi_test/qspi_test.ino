@@ -7,7 +7,7 @@ void setup()
   SeaTrans.begin();
   SeaTrans.write(0, data1, 2);
   SeaTrans.read(0, data2, 2);
-  Serial.printf("%d %d\r\n");
+  Serial.printf("%d %d\r\n",data2[0],data2[1]);
 }
 
 void loop()

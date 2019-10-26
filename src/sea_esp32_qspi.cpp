@@ -47,7 +47,7 @@ bool sea_esp32_qspi::read(uint16_t addr, uint8_t data[], uint16_t length)
 	qspiReadPolling(&this->qspi, addr, RD_CMD, data, length);
 }
 
-bool sea_esp32_qspi::read(uint16_t addr, char data[], uint16_t length=1)
+bool sea_esp32_qspi::read(uint16_t addr, char data[], uint16_t length)
 {
 	qspiReadPolling(&this->qspi, addr, RD_CMD, (uint8_t *)data, length);
 }
